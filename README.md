@@ -37,7 +37,7 @@ const jason = {
     birthday: "June 13, 1946"
 }
 ```
-Objects are just a combination of other primitive values such as String, Numbers, and Booleans. In other languages such as Python, object are called dictionaries.
+Objects are just a combination of other primitive values such as String, Numbers, and Booleans. In other languages such as Python, objects are called dictionaries.
 
 The main difference between JavaScript object and JSON is in the double quotes `"`.
 
@@ -76,4 +76,25 @@ Now you can access the properties and data from it.
 
 In every programming language, there are packages to do both of these things.
 
+Python example:
+
+```python
+import json
+
+json.loads()  # parses JSON text into a python dictionary.
+json.dumps() # converts the python dictionary into JSON text.
+```
+
 **Troubleshooting**: Most common problems with JSON comes when you want to use the JSON string data as an object without parsing it first. Or you want to send the object to the server without converting it to a JSON string first.
+
+Resources:
+
+- (json.org)[https://www.json.org/json-en.html]
+- (JSON w3 schools)[https://www.w3schools.com/js/js_json_intro.asp]
+- (Working with JSON)[https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON]
+
+## Show some love!
+
+I you learned something from this repo, please tweet this and ⭐ on GitHub.
+
+[![tweet](tweet.png)](https://twitter.com/intent/tweet?url=https://github.com/tamalweb/json&text=JSON%20explained%20in%20simple%20terms%20via%20@tamalweb)

@@ -25,7 +25,9 @@ This way it's possible to send it to a server as a long piece of string:
 All the JSON data will be inside this opening and curly braces:
 
 ```json
-{}
+{
+
+}
 ```
 
 In JavaScript, we can make an object by using these curly braces, it's called an object litteral.

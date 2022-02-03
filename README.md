@@ -85,13 +85,15 @@ json.loads()  # parses JSON text into a python dictionary.
 json.dumps() # converts the python dictionary into JSON text.
 ```
 
-**Troubleshooting**: Most common problems with JSON comes when you want to use the JSON string data as an object without parsing it first. Or you want to send the object to the server without converting it to a JSON string first.
+**Troubleshooting**: 
 
-Resources:
+Most common problems with JSON comes when you want to use the JSON string data as an object without parsing it first. Or you want to send the object to the server without converting it to a JSON string first.
 
-- (json.org)[https://www.json.org/json-en.html]
-- (JSON w3 schools)[https://www.w3schools.com/js/js_json_intro.asp]
-- (Working with JSON)[https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON]
+**Resources**:
+
+- [json.org](https://www.json.org/json-en.html)
+- [JSON w3 schools](https://www.w3schools.com/js/js_json_intro.asp)
+- [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 
 ## Show some love!
 
